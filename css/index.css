@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+
+body {
+    background-color: lightgray; 
+}
+.container {
+    background-color: yellow;
+}
+.nav-link {
+    background-color: red;
+}
+
+.navbar-brand {
+    background-color: pink;
+}
+#navbarSupportedContent {
+    background-color: blue;
+}
+#con {
+    height: 300px;
+}
+*/
+ul {
+    list-style: none;
+}
+.btn-primary:hover {
+    background-color: blue;
+}
+.btn-primary2 {
+    background-color: rgb(202, 195, 195);
+}
+.btn-primary2:hover {
+    background-color: gray;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    border-radius: 30px;
+   
+}
+
+h1 {
+    font-size: 50px;
+   
+}
+
+#table {
+    height: 400px;
+}
+
+@media  only screen and (max-width: 992px) {
+    ul li {
+        text-align: center;
+        width: auto;
+        
+    }
+    a {
+        color: blue;
+        
+    }
+    #logo {
+        width: 100%;
+    }
+    
+}
+.grid {
+    height: 300px;
+}
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+#page-link:hover {
+    background-color: white ;
+}
